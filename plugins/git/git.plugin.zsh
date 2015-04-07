@@ -41,6 +41,12 @@ alias gbl='git blame -b -w'
 alias gbnm='git branch --no-merged'
 alias gbr='git branch --remote'
 
+alias gbs='git bisect'
+alias gbss='git bisect start'
+alias gbsg='git bisect good'
+alias gbsb='git bisect bad'
+alias gbsr='git bisect reset'
+
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gca='git commit -v -a'
